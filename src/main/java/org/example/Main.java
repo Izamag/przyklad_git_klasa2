@@ -10,7 +10,9 @@ public class Main {
         Osoba osoba2 = new Osoba("Amelia", "Nowak");
         System.out.println("Imię: " + osoba2.imie + "\n" + "Nazwisko:" +osoba2.nazwisko);
         System.out.println("hello");
+        System.out.println("nazwisko");
         System.out.println(osoba.getInfo());
         System.out.println(osoba2.getInfo());
+        System.out.println("imie");
     }
 }
