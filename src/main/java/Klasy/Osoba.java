@@ -8,5 +8,7 @@ public class Osoba {
         this.imie = imie;
         this.nazwisko = nazwisko;
     }
-
+public String getInfo(){
+        return "Imię: " + this.imie + "     " + "Nazwisko: " + this.nazwisko;
+}
 }
